@@ -1,24 +1,23 @@
 
-var firstName; // variable declaration
-firstName = "undefined";  // Variable initialization
+var firstName; 
+firstName = "undefined";  
 console.log(firstName);
-firstName = "Omprasad Naurte"; // Variable update
+firstName = "Omprasad Naurte"; 
 console.log(firstName);
-firstName = "Omprasad kakaso Narute"; // Variable update
+firstName = "Omprasad kakaso Narute"; 
 console.log(firstName);
-firstName = "First Name : Om"; // Variable update
+firstName = "First Name : Om"; 
 console.log(firstName);
-firstName = "Last Name : Narute"; // Variable update
+firstName = "Last Name : Narute"; 
+firstName = "Age:22 Years"; 
 console.log(firstName);
-firstName = "Age:22 Years"; // Variable update
+firstName = "Address: Sangola"; 
 console.log(firstName);
-firstName = "Address: Sangola"; // Variable update
+firstName = "PinCode: 413307"; 
 console.log(firstName);
-firstName = "PinCode: 413307"; // Variable update
+firstName = "Gender: Male"; 
 console.log(firstName);
-firstName = "Male: Male"; // Variable update
-console.log(firstName);
-firstName = "Married Statis : No"; // Variable update
+firstName = "Married Statis : No"; 
 console.log(firstName);
 
 
