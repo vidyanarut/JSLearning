@@ -1,3 +1,4 @@
+
 var greet = 'Good Morning';
 
 console.log("========= length property =============");
@@ -41,3 +42,51 @@ console.log("Length after trim: ", result.length);
 var lengthAfterTrim = result.length;
 var result = lengthBeforeTrim - lengthAfterTrim;
 console.log('Removed extra spaces are: ', result);
+
+
+console.log("========== search() =============== ");
+var greet = "Good Morning";
+var result = greet.search('orn');
+console.log(result);
+var result = greet.search('after');
+console.log(result);
+
+console.log("========== slice() =============== ");
+var greet = 'Hello Good Morning!';
+var result = greet.slice(6);
+console.log(result);
+var result = greet.slice(6, 10);
+console.log(result);
+console.log("========== split() =============== ");
+
+var result = greet.split("  ");
+console.log(result);
+
+
+var string="It is an instance that allows us to access members in JavaScript.";
+var word=string.split("  ");
+console.log(word);
+console.log("total no of word"+word.length);
+
+console.log(`The most /"user"/ friendly`);
+
+ a=10;
+ b=20;
+c=a+b;
+console.log("addition of c  "+c);
+
+const name = 'javascript';
+console.log(`Hello ${name}!`);
+
+
+
+
+function countWords(str) {
+    const arr = str.split(' ');
+  
+    return arr.filter(word => word !== '').length;
+  }
+  
+  console.log(countWords('bobby hadz com')); // 👉️ 3
+  console.log(countWords('This   is   a long string')); // 👉️ 5
+  
