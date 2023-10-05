@@ -13,5 +13,5 @@ for (let index = 0; index < 20; index++) {
     if (index==10) {
         continue;
     }
-    console.log("logged index value"); 
+    console.log("logged index value "); 
 }
