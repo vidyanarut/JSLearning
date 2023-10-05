@@ -1,9 +1,11 @@
-var str='Solutions for the benefit of the masses that addresses';
-count=0;
-for(var i=0; i<Text.length;i++){
-    if(Text.charAt(i)==='r'){
-        count++;
+let str="SangOla collAge sangola";
+ 
+let count =0;
+const I =['a']
 
+for(let s of str.toLocaleUpperCase()){
+    if(I.includes(s)){
+        count++
     }
 }
 console.log(count);
