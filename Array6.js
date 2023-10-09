@@ -44,6 +44,9 @@ arr[1] = 'Kiwi';
   console.log(arr);
 
 
+  arr [3]='isMirried'
+  console.log(arr);
+  
   let m=["Banana","Orange","Apple","Mango","Water Melon"];
 console.log(`======  element start from 1 to 4   =========`);
 m.splice(1-2);
