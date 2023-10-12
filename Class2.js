@@ -53,9 +53,6 @@ class suraj {
         this.Eductionsfiled=Eductionsfiled;
         this.Establishment=Establishment;
 
-
-        
-
     }
 }       
 
@@ -90,7 +87,6 @@ for (const values in u) {
  for (const values in b) {
     console.log(values, b[values]);
  }
-
 
 
  console.log("=============================");
