@@ -7,7 +7,7 @@ function remove(arr) {
 console.log(remove(arr));
 //////////////////////////////////////
 console.log('---------------------');
-const str = "How are you mate";
+const str = [42,  50, 3, 2, 7, 22, 11, 40];
 
 function convertString(str) {
   let result = '';
