@@ -6,6 +6,7 @@ console.log("Reversed Array: ");
 
 array.reverse();
 console.log(typeof array);
+
 ///////////////////////////////
 
 let numbers = [10, 23, 12, 21];
