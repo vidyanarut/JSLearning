@@ -23,10 +23,18 @@ const elementAll = document.querySelectorAll('.techStack');
 console.log(elementAll[0].innerHTML);
 console.log(elementAll[1].innerHTML);
 
-
-
-
-
 console.log(`========== Update or change the text of an element ==================`);
 const titleElement = document.querySelector('#title');
-titleElement.innerHTML = 'Learning API - Document Object Model';
+titleElement.innerHTML = '';
+
+console.log("=============================================");
+
+const listheadingElement = document.querySelector('#listheading');
+console.log(listheadingElement);
+listheadingElement.style.color='red'
+
+
+const webElement = document.querySelector('#web');
+console.log(webElement);
+webElement.style.color='brown'
+
